@@ -34,7 +34,7 @@ Del archivo sendmail.php no debe modificar nada más, a menos que esté familiar
 -   $oPhpCaptcha = new PhpCaptcha($aFonts, 200, 50);
 -   Donde 200 y 50 representan el ancho y el alto del captcha.
 -   Luego deberá modificar el formulario para que muestre una imágen del mismo tamaño en la línea:
--   '<img src="captcha.php" width="200" height="50" alt="Visual CAPTCHA" />'
+-   `<img src="captcha.php" width="200" height="50" alt="Visual CAPTCHA" />``
 - Cambiar el fondo del captcha
 -   Para modificar la imágen de fondo debe alojar un archivo 'jpg' de 200x60 (o la resolución que hubiera elegido según el paso anterior) y llamarlo 'captcha.bg.jpg', reemplazando así el actual.
 - Cambiar la fuente del captcha
